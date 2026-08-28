@@ -2,7 +2,6 @@
 
 Tracks refinery bookings and reservations for analyzed batches listed on the Digital Showroom, capturing the full transaction path from initial buyer hold through final confirmation or cancellation.
 
----
 
 ## Database Field Schema
 
@@ -15,7 +14,6 @@ Tracks refinery bookings and reservations for analyzed batches listed on the Dig
 | **`created_at`** | DateTime | `NOT NULL` | Timestamp identifying exactly when the booking inquiry was submitted (UTC). |
 | **`updated_at`** | DateTime | `NOT NULL` | Timestamp identifying exactly when the booking status flag was last updated (UTC). |
 
----
 
 ## State Lifecycle Definitions
 
