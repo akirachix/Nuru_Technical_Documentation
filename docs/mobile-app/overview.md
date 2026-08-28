@@ -2,15 +2,11 @@
 
 The refinery-facing client application is engineered to deliver a responsive, high-utility marketplace experience directly to procurement specialists and metallurgical processing workers in the field.
 
----
-
 ## Technology Stack Profile
 
 * **Core Framework:** **Flutter**
 * **Programming Language:** **Dart**
 * **Application Architecture:** Native mobile client distribution optimized for persistent local state management, transactional security, and concurrent network queries.
-
----
 
 ## Operational Environment Context
 
