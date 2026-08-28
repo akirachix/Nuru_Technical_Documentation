@@ -2,7 +2,6 @@
 
 **Nuru** is an artificial intelligence (AI) and Internet of Things (IoT)driven electronic waste (e-waste) material intelligence system developed by **e-Loop**. The platform transforms manual sorting into an automated, data-driven framework by connecting local e-waste recycling centers with downstream industrial refinery pipelines.
 
----
 
 ## System Overview
 
@@ -12,7 +11,6 @@ The ecosystem operates on a multi-tier architectural blueprint designed to bridg
 * **Operator Client Platform:** A **Next.js Progressive Web App (PWA)** optimized for high-visibility intake tracking and inventory handling on the sorting floor.
 * **Buyer Marketplace Client:** A native **Flutter mobile application** tailored for industrial metallurgy buyers browsing marketplace assets.
 
----
 
 ## Technical Architecture Stack
 
@@ -23,7 +21,6 @@ The ecosystem operates on a multi-tier architectural blueprint designed to bridg
 | **Data Stream** | Stateful HTML5 WebSockets | Real-time edge-to-cloud classification ingestion |
 | **Cloud Broker** | FastAPI Core Service Router | Value algorithms and business logic validation |
 
----
 
 ## High-Level Processing Flow
 
