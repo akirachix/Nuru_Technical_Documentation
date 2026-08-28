@@ -1,4 +1,3 @@
----
 layout: home
 
 hero:
@@ -25,7 +24,6 @@ features:
     details: Seamless B2B integration bridging recycling factory PWAs with automated native Flutter refinery marketplaces.
   - title: Company Security
     details: Built with secure cryptographic password hashes, dynamic FastAPI rate-limiting, and explicit CORS protection.
----
 
 ## Technical Overview
 
