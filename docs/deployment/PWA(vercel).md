@@ -21,9 +21,7 @@ vercel link
 ### 2. Configure Your Public API Connection Endpoint
 Inject the environmental key targeting your production Heroku server host instance. This configuration can be handled directly via the Vercel online administrative control panel settings grid or run via terminal commands:
 ```bash
-vercel env add NEXT_PUBLIC_API_URL production
-# When prompted for the parameter value, paste your live backend domain:
-# https://herokuapp.com
+
 ```
 
 ### 3. Initialize a Manual / First-Time Production Release
