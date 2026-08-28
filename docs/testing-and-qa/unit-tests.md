@@ -2,8 +2,6 @@
 
 For the informational website, the following tests were carried out to validate interface reliability, visual consistency, and user interaction mechanics.
 
----
-
 ## Test Automation Suite Breakdown
 
 The front-end test automation architecture is divided into three focused spec files targeting critical functional layers of the web layout:
@@ -14,8 +12,6 @@ The front-end test automation architecture is divided into three focused spec fi
   This block runs structural and visual checks on the webpage's `<footer>` element. It ensures that the bottom of the page renders completely, contains valid structural text, and matches design system styles.
 * **`functionality.cy.js`**  
   This block validates that the web page is fully scrollable and ensures that its call-to-action buttons can be clicked successfully by users.
-
----
 
 ## Testing Objectives & Strategy Matrix
 
