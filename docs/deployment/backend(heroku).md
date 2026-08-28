@@ -2,8 +2,6 @@
 
 The backend production application layer is deployed on Heroku as the `eloop-backend` app, backed by a fully managed Heroku Postgres database instance.
 
----
-
 ## Architecture Lifecycle Configuration
 
 The hosting cluster leverages platform automation to detect and run the runtime ecosystem dependencies:
@@ -11,8 +9,6 @@ The hosting cluster leverages platform automation to detect and run the runtime 
 * **Buildpack Integration:** Heroku automatically evaluates the environment and assigns the **Python buildpack** via the presence of the structural `requirements.txt` file located at the repository root. No manual buildpack overriding is required.
 * **Process Orchestration:** The dyno container cluster reads its boot instructions directly from the checked-in **`Procfile`**, which spins up the high-performance FastAPI application server via the **Uvicorn** ASGI protocol.
 * **Access Scope boundaries:** Production deployments are strictly gated behind authorized Heroku accounts maintaining structural collaborator privileges on the target `eloop-backend` app instance.
-
----
 
 ## Deployment CLI Command Walkthrough
 
@@ -50,8 +46,6 @@ Push your active repository source branch changes directly upstream to your clou
 ```bash
 git push heroku main
 ```
-
----
 
 ## Post-Deployment Diagnostics & Validation
 
