@@ -2,7 +2,6 @@
 
 The physical material intelligence sorting line leverages a standardized edge-computing hardware configuration to capture live vision frames and process local computer vision algorithms without causing factory floor bottleneck delays.
 
----
 
 ## Edge System Hardware Specifications
 
@@ -12,7 +11,6 @@ The physical material intelligence sorting line leverages a standardized edge-co
 | **Raspberry Pi Camera Module 3** | Industrial CSI Lens Array | Suspended overhead to capture clear optical frames of the active conveyor belt stream. |
 | **Stateful WebSocket Link** | Network Protocol (`wss://`) | Real-time, continuous metadata link connecting edge line arrays directly to the cloud. |
 
----
 
 ## Technical Component Profiles
 
