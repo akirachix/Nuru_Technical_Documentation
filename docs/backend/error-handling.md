@@ -2,7 +2,6 @@
 
 The platform implements standardized HTTP status codes and error-reporting schemas across all core routing channels. The batch-finishing transaction lifecycle serves as the primary system-wide convention model for API response structures.
 
----
 
 ## HTTP Response Matrix
 
@@ -17,7 +16,6 @@ The table below outlines the standard response codes, semantic meanings, and typ
 | **`429`** | **Too Many Requests** | Active client interaction traffic patterns cross threshold limits managed by the system's rate-limiting modules. |
 | **`500`** | **Internal Server Error** | An unhandled exception occurred within the core backend. Requires access to Heroku log streams (`heroku logs --tail`) to isolate tracebacks. |
 
----
 
 ## Structural Response Blueprint
 
@@ -43,7 +41,6 @@ To ensure that both frontend clients (the Next.js PWA and the Flutter mobile app
 }
 ```
 
----
 
 ## Log Analysis Guidelines
 
