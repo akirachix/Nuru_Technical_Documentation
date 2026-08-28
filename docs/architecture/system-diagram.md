@@ -2,8 +2,6 @@
 
 E-Loop is a hardware-integrated system. Component and batch value tiers are derived from real scanned material-composition data run through a trained scoring model. 
 
----
-
 ## Architectural Data Topology
 
 ```mermaid
@@ -31,14 +29,12 @@ graph TD
     end
 ```
 
----
 
 ## High-Level System Components
 
 At a high level, the system is composed of the following factors and components:
 
 | Component | Description |
-| :--- | :--- |
 | **Raspberry Pi 5 + Camera Module 3** | Captures overhead camera feeds of e-waste components on the sorting line; runs the YOLOv8s model locally for classification; sends classification results to the backend over WebSocket. |
 | **FastAPI Backend (Heroku)** | Central point that receives classifications from the Pi, looks up material composition, calculates individual and batch value tiers, persists everything to PostgreSQL, and serves the PWA and the Flutter app. |
 | **Material Composition Lookup Table** | A file mapping component category or the subclasses to material percentages (gold, silver, copper, cobalt, lithium, aluminium, iron, nickel, lead). Loaded into memory on backend startup for fast lookups. |
