@@ -2,8 +2,6 @@
 
 The backend controls which frontend applications may call the API through the `CORS_ORIGINS` environment variable, using an explicit allow-list rather than a wildcard.
 
----
-
 ## Defensive Configuration Blueprint
 
 This browser-side protection mechanism restricts cross-origin interactions strictly to verified, trusted host domains to eliminate arbitrary cross-site request vulnerabilities.
@@ -11,8 +9,6 @@ This browser-side protection mechanism restricts cross-origin interactions stric
 * **Explicit Allow-Listing:** The system explicitly avoids the use of open card parameters (`"*"`) alongside authorization handlers, satisfying strict browser-side cross-origin standards.
 * **Environment-Driven Injection:** In production environments, domains are parsed from comma-separated strings inside environment setups into the middleware array.
 * **Method & Header Restriction:** Limits allowed operations to required endpoints and locks down acceptable headers to prevent malicious injection attempts.
-
----
 
 ## Code Reference Configuration
 
@@ -34,8 +30,6 @@ app.add_middleware(
     allow_headers=["Content-Type", "Authorization"],
 )
 ```
-
----
 
 ## Security Property Explanations
 
