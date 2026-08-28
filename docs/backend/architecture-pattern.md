@@ -2,7 +2,6 @@
 
 The backend is engineered around a strict **service-layered architecture pattern**. This separation of concerns ensures that business logic remains decoupled from network protocols, database connections, and validation engines, maximizing code reusability and testing isolation.
 
----
 
 ## Architecture Layer Breakdown
 
@@ -25,7 +24,6 @@ The code repository workspace is structured into specialized functional layers, 
 * ** `rate_limit` file**  
   A dedicated network protection middleware component configuration engineered to track request volumes and throttle excessive client traffic to protect computing resources.
 
----
 
 ## Architectural Responsibility Constraints
 
