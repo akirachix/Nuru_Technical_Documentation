@@ -2,7 +2,6 @@
 
 The platform enforces strict language-specific coding standards across all development teams to guarantee a clean codebase, reduce developer friction, and streamline cross-platform architecture tracing.
 
----
 
 ## Language Ecosystem Syntax Matrix
 
@@ -17,7 +16,6 @@ The platform enforces strict language-specific coding standards across all devel
 | **TypeScript / React** (Web PWA) | Components / Classes | `PascalCase` | `IntakeForm`, `ConveyorStream`, `BatchStatus` |
 | | Variables / Functions | `camelCase` | `isScannerActive`, `triggerNextScan()` |
 
----
 
 ## Detailed Implementation Parameters
 
