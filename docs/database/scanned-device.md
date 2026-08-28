@@ -2,8 +2,6 @@
 
 Stores every individual e-waste component scanned by the computer vision hardware at the recycling center, along with its estimated mineral composition metrics.
 
----
-
 ## Database Field Schema
 
 | Column Name | Data Type | Constraints | Operational Description |
