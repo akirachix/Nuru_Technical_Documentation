@@ -25,6 +25,7 @@ This workflow captures and processes data continuously on the physical sorting l
       "subclass": "smartphone_logic_board",
       "confidence_score": 0.80
     }
+    ```
     
 * **Ingestion Transmission:** The edge client streams the inference metadata payload directly to the FastAPI cloud application layer via standard network integration pathways (mapping to the `POST /api/scanned-devices` data context).
 * **Database Persistence:** The backend instantiates and commits a new **`ScannedDevice`** record containing:
@@ -63,7 +64,7 @@ This workflow governs concurrent buyer operations inside the shared B2B Digital 
                                                               │
                                                               v
  [ Marketplace View ] <── Hide From Inventory <── [ Status: "Booked" ]
-
+```
 
 * **Discovery Filtering:** A refinery sourcing specialist fires up the native Flutter application, parsing the Digital Showroom catalog using multi-variable filters (e.g., isolation by target value tier).
 * **Reservation Request:** The user isolates an entry and triggers the checkout process by clicking **"Book This Batch"**.
