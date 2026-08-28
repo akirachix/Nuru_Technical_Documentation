@@ -2,19 +2,16 @@
 
 Follow this step-by-step installation guide to clone the source repository, configure local environment variables, initialize database schemas, and boot up the hot-reloading FastAPI application layer.
 
----
 
 ## 1. Clone the Repository
 
 Execute these terminal commands to download the code repository infrastructure and step down into the core application module workspace directory:
 
 ```bash
-git clone https://github.com/akirachix/Nuru_Technical_Documentation
+git clone https://github.com/akirachix/Nuru_Backend
 cd Nuru_Backend
 cd eloop
 ```
-
----
 
 ## 2. Create and Activate a Virtual Environment
 
@@ -25,7 +22,6 @@ uv venv env
 source env/bin/activate
 ```
 
----
 
 ## 3. Install Dependencies
 
@@ -35,7 +31,6 @@ Install all package requirements, configurations, and core database engine depen
 pip install -r requirements.txt
 ```
 
----
 
 ## 4. Environment Variables Configuration
 
@@ -45,7 +40,6 @@ Create a localized secret management file named **`.env`** directly inside the a
 touch .env
 ```
 
----
 
 ## 5. Set up the Database
 
@@ -63,7 +57,6 @@ Alternatively, initialize the core physical metadata tables directly using the e
 python -c "from database import Base, engine; Base.metadata.create_all(bind=engine)"
 ```
 
----
 
 ## 6. Run the Backend
 
@@ -73,7 +66,6 @@ Launch your local development web server with live reloading enabled using the U
 uvicorn app:app --reload --port 8000
 ```
 
----
 
 ## 7. Confirm It Is Working
 
