@@ -2,8 +2,6 @@
 
 The rapid growth of the clean energy transition creates an unprecedented structural challenge: matching the escalating global demand for critical infrastructure minerals with ethical, transparent, and scalable supply chains.
 
----
-
 ## The Core Market Inefficiency
 
 The traditional lifecycle of electronic hardware and rare-earth element procurement is bottlenecked by two concurrent global friction points:
@@ -29,8 +27,6 @@ Millions of metric tons of high-value consumer electronics are discarded globall
 ### 3. Sourcing Fragmentations
 Industrial refineries have the metallurgical capabilities to process and extract pure elements from electronic scrap but lack access to a predictable, standardized, or verified material repository. Procurement remains isolated and decentralized.
 
----
-
 ## The e-Loop Structural Solution
 
 **e-Loop** closes this operational gap by deploying automated edge classification and value calculations right at the ingestion lines, transforming complex waste management challenges into actionable mineral supply feeds.
@@ -44,7 +40,6 @@ Industrial refineries have the metallurgical capabilities to process and extract
 | **Market Access** | Closed networks requiring cold outreach or brokers. | Centralized **Digital Showroom** providing direct browsing, filtering, and booking. |
 | **Lifecycle Auditing** | Disconnected data systems with poor chain-of-custody. | Unified end-to-end processing and booking transaction logs. |
 
----
 
 ## Lifecycle Tracking Matrices
 
