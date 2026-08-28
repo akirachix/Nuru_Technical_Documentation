@@ -2,7 +2,6 @@
 
 The recycling center-facing user portal is engineered as a responsive, high-performance web client tailored for real-time factory floor inventory management and ingestion tracing.
 
----
 
 ## Technology Stack Profile
 
@@ -10,7 +9,6 @@ The recycling center-facing user portal is engineered as a responsive, high-perf
 * **Application Architecture:** **Progressive Web App (PWA)**
 * **Deployment Pattern:** Static hosting optimized for localized browser caching and offline-ready responsiveness.
 
----
 
 ## Operational Environment Constraints
 
