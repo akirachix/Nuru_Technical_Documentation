@@ -2,8 +2,6 @@
 
 The platform architecture implements strict externalized runtime configurations to guarantee cryptographic confidentiality, enforce environment isolation, and eliminate credential exposure risks.
 
----
-
 ## Core Security Objectives
 
 To preserve system integrity and satisfy rigorous auditing benchmarks, all sensitive keys and dynamic system behaviors are bound by strict isolation principles:
@@ -12,7 +10,6 @@ To preserve system integrity and satisfy rigorous auditing benchmarks, all sensi
 * **Platform-Level Injection:** Production secrets reside exclusively within secure cloud runtime containers (such as the Heroku Dashboard Config Vars pipeline).
 * **Source-Control Exclusion:** Secret configuration assets are permanently blocked from reaching open source code repositories to prevent accidental downstream leaks.
 
----
 
 ## Production Configuration Matrix
 
@@ -25,7 +22,6 @@ The table below outlines the primary configuration variables required to initial
 | **`CORS_ORIGINS`** | Network Middleware | Comma-separated domain string defining the precise, explicit host allow-list for cross-origin tracking protection. |
 | **`RATE_LIMIT_ENABLED`** | Traffic Guard | Boolean runtime toggle switch (`true` or `false`) that activates or suspends the automated API rate-limiting subsystem. |
 
----
 
 ## Leak Prevention Architecture
 
