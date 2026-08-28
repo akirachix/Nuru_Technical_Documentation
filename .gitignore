@@ -1,0 +1,17 @@
+node_modules/
+.pnpm-store/
+
+
+docs/.vitepress/dist/
+
+
+docs/.vitepress/cache/
+
+
+.env
+.env.local
+.env.*.local
+
+
+.DS_Store
+Thumbs.db
