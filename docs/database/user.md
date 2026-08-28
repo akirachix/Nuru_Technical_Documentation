@@ -2,8 +2,6 @@
 
 Stores user credentials and links each worker to their company. Serves as the foundation for multi-tenant data access controls and role-based dashboard experiences.
 
----
-
 ## Database Field Schema
 
 | Column Name | Data Type | Constraints | Operational Description |
