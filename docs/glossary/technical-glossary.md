@@ -2,8 +2,6 @@
 
 This glossary defines the core technical components, industry terms, and platform abstractions utilized throughout the Nuru ecosystem.
 
----
-
 ## Terms & Definitions
 
 | Term | Definition |
