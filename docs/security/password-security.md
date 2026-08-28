@@ -2,8 +2,6 @@
 
 The platform enforces strict cryptographic standards to protect user access credentials, eliminate data vulnerability vectors, and ensure compliance with modern security auditing parameters.
 
----
-
 ## Core Security Directives
 
 To maintain maximum credential isolation and shield user account integrity across all system layers, authentication storage boundaries comply with these strict architectural constraints:
@@ -11,8 +9,6 @@ To maintain maximum credential isolation and shield user account integrity acros
 * **Plain-Text Total Elimination:** User passwords are never captured, written to logging output streams, or stored in plain-text format anywhere within the platform ecosystem.
 * **Immutable Hash Storage:** The central database `users` table records and persists only a cryptographically secure `password_hash` value.
 * **Immediate Discard Protocol:** The raw, plain-text password payload parameter is strictly discarded from server memory loops immediately after the hashing algorithm completes execution during both registration and login authentication cycles.
-
----
 
 ## Structural Authentication Lifecycle Flow
 
