@@ -2,8 +2,6 @@
 
 This guide catalogs common system errors, edge hardware connectivity hurdles, and diagnostic lookup faults encountered across the platform integration pipeline.
 
----
-
 ## Technical Issue Resolution Matrix
 
 | Issue | Likely Cause | Solution |
