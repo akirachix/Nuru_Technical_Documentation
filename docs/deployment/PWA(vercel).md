@@ -1,15 +1,12 @@
----
 
 The recycling center operator dashboard is deployed separately from the API cloud cluster on Vercel, utilizing an integrated, continuous-delivery connection linked directly to the `Nuru_Dashboard` GitHub repository.
 
----
 
 ## Automation & Framework Delivery
 
 * **Zero-Config Build Pipeline:** Vercel recognizes the native **Next.js** project footprint immediately upon ingestion. It runs the standard `next build` script command automatically, removing any need for manual build configuration overrides or custom infrastructure provisioning files.
 * **Continuous Git Deployments:** Because the GitHub integration is actively connected, every code change pushed to the `main` tracking branch triggers a production build update in real time. Code changes pushed to alternative branches generate safe, preview deployments scoped to that specific branch feature.
 
----
 
 ## Vercel CLI Deployment Operations
 
@@ -34,8 +31,6 @@ If you choose to bypass automated Git webhooks or need to push a direct build up
 ```bash
 vercel --prod
 ```
-
----
 
 ## Live System Post-Deployment Verification
 
