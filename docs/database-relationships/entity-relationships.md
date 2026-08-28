@@ -2,7 +2,6 @@
 
 The E-Loop relational database model uses strict referential integrity parameters to maintain multi-tenant data boundaries, trace the physical e-waste lifecycle, and isolate commercial procurement transactions.
 
----
 
 ## Relationship Definition Matrix
 
@@ -17,7 +16,6 @@ The table below catalogs every explicit structural link, cardinality type, and b
 | **5** | `batch` | `scanned_device` | One-to-Many | One batch can have many scanned device records linked to it. |
 | **6** | `batch` | `booking` | One-to-One | One batch has one booking linked to it. |
 
----
 
 ## Entity Relationship Diagram
 
