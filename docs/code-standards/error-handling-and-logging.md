@@ -2,7 +2,6 @@
 
 The platform enforces standardized error-reporting behaviors and execution logging boundaries across all runtime modules to simplify cross-platform diagnostic tracking.
 
----
 
 ## Backend Exception Protocols
 
@@ -22,7 +21,6 @@ Any unexpected system exception, unmanaged core fault, or structural database cr
 * It returns a sanitized, generic **`500 Internal Server Error`** network response payload to the calling client application.
 * The explicit, raw tracebacks and environmental crash metrics are written cleanly to the production environment streams.
 
----
 
 ## Log Analysis & Monitoring
 
