@@ -2,8 +2,6 @@
 
 The core capabilities of the platform are organized into five primary functional pillars that automate material detection, standardize inventory values, and open up direct transactional marketplace pipelines.
 
----
-
 ## Feature Matrix
 
 | Feature | Primary Interface | Technical Driver |
@@ -14,7 +12,6 @@ The core capabilities of the platform are organized into five primary functional
 | **Inventory Management** | Web App Dashboard | PostgreSQL Relational Ledger |
 | **Digital Showroom** | Mobile App (Flutter) | Multi-Tenant Data Control Layer |
 
----
 
 ## Detailed Feature Profiles
 
