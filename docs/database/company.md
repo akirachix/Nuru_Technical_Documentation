@@ -2,8 +2,6 @@
 
 Stores company profile information for both Recycling Center and Refinery organizations, serving as the foundational anchor of the platform's multi-tenant data isolation layer.
 
----
-
 ## Database Field Schema
 
 | Column Name | Data Type | Constraints | Operational Description |
