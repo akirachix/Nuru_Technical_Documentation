@@ -2,14 +2,10 @@
 
 Integration testing verifies that the API endpoint layers communicate correctly with backend services, relational databases, and multi-tenant authorization engines under runtime conditions.
 
----
-
 ## Target Endpoint Resource
 
 * **Testing Route URL:** `https://herokuapp.com`
 * **Testing Framework Provider:** **Postman Test Suite Automation**
-
----
 
 ## Verification Scope & Operational Objective
 
@@ -19,7 +15,6 @@ The automated Postman test script provides comprehensive runtime assertion cover
 * **JSON Metadata Handling:** Validates strict enforcement of payload structures, parameter schema typing definitions, and structured response parsing rules.
 * **Dynamic Conditional Assertions:** Evaluates system edge behaviors across multiple explicit application response states.
 
----
 
 ## Response Assertion Validation Matrix
 
