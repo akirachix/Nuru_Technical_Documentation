@@ -2,15 +2,11 @@
 
 The eLoop platform leverages a relational database management system to ensure high transactional integrity, strict relational constraint enforcement, and bulletproof multi-tenant separation.
 
----
-
 ## Technology Profile
 
 * **Primary Database Engine:** **PostgreSQL**
 * **Object-Relational Mapping (ORM):** **SQLAlchemy**
 * **Database Schema Migrations:** **Alembic**
-
----
 
 ## Core Schema Tables
 
@@ -24,8 +20,6 @@ The system's operational dataset is organized around six foundational tables:
 | **`scanned_devices`** | Granular vision classification inference events. | Saves individual item element arrays and raw mineral metrics logs. |
 | **`batches`** | Aggregated material lot package profiles. | Tracks consolidated inventory statuses from `In Progress` to `Listed`. |
 | **`booking`** | B2B marketplace transaction lifecycle logs. | Manages procurement reservation locks created by refinery professionals. |
-
----
 
 ## Data Layer Architecture Flow
 
