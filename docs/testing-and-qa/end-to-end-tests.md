@@ -2,8 +2,6 @@
 
 End-to-end testing simulates real-world workflows to validate that frontend interfaces, interactive data models, form inputs, and backend routing endpoints coordinate flawlessly across the entire ecosystem.
 
----
-
 ## 1. Setup & Environment Initialization
 
 Follow these configuration steps to download required browser drivers and initialize a production-ready test sandbox:
@@ -26,8 +24,6 @@ The layout engine automatically handles several background initialization tasks 
 * Generates a primary framework configuration asset file at **`playwright.config.ts`**.
 * Pulls down localized binary versions of target browsing rendering engines (**Chromium**, **Firefox**, and **Webkit**).
 
----
-
 ## 2. Launching the Interactive Test Interface
 
 Once your installation dependencies settle completely, execute the following command block to spin up the specialized Playwright visual controller:
@@ -38,7 +34,6 @@ npx playwright test --ui
 
 From this unified graphic user dashboard tool, you can trigger specific automation lines, evaluate rendering loops, analyze failure trace profiles, and test any targeted application layout context or form flow.
 
----
 
 ## 3. Sample Automation Profile: Device Registration
 
