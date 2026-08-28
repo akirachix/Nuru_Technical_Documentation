@@ -2,15 +2,11 @@
 
 The backend implements a centralized network traffic management layer to safeguard infrastructure resources, guarantee high availability, and mitigate automated script velocity threats.
 
----
-
 ## Technical Component Profile
 
 * **Dedicated Module Asset:** **`rate_limit.py`**
 * **Configuration Toggle Switch:** `RATE_LIMIT_ENABLED` (Managed inside system environment variables)
 * **Default Active Exception Trigger:** Returns an explicit **`HTTP 429 Too Many Requests`** status code once a transaction volume cross-boundary limits.
-
----
 
 ## Core Security Objectives
 
@@ -21,8 +17,6 @@ An automated sorting conveyor belt setup relies on continuous data streaming loo
 
 ### 2. API Abuse & Brute-Force Shielding
 Public authentication pathways, user login routes, and bulk showroom exploration grids represent high-value targets for rogue automated scripts and credential-stuffing exploits. By capping maximum execution thresholds within fixed time windows, the system neutralizes brute-force attacks and prevents indexing bots from degrading service latency for authorized operators.
-
----
 
 ## Dynamic Runtime Operation Mechanics
 
