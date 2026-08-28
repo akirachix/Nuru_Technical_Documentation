@@ -2,7 +2,6 @@
 
 The platform operates on a multi-tenant matrix that isolates data boundaries while allowing seamless, secure resource interactions based on a user's defined account classification.
 
----
 
 ## Core User Matrix
 
@@ -12,7 +11,6 @@ The platform operates on a multi-tenant matrix that isolates data boundaries whi
 | **Refinery Worker** | Browses the Digital Showroom, filters batches by value tier, and books batches for procurement. |
 | **Admin** | Elevated access across the platform; manages user and company accounts. |
 
----
 
 ## Detailed Profile Scopes & Interfaces
 
