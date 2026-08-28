@@ -2,8 +2,6 @@
 
 The refinery-facing mobile application leverages a native runtime connection to communicate directly with unified backend infrastructure services, using shared resource endpoints to handle transactional states.
 
----
-
 ## Architectural Mapping
 
 The client integrates directly into the platform core without relying on isolated middlewares or individual data layers:
@@ -13,8 +11,6 @@ The client integrates directly into the platform core without relying on isolate
   * `/api/companies`
   * `/api/batches`
   * `/api/bookings`
-
----
 
 ## Security Framework
 
