@@ -2,7 +2,6 @@
 
 The platform implements an exact statistical approach to assess the cumulative raw mineral asset valuation of bulk physical lots prior to marketplace publishing.
 
----
 
 ## The Valuation Aggregation Rule
 
@@ -13,7 +12,6 @@ To guarantee metallurgical accuracy and protect B2B transactional integrity, the
 
 The batch tier is **not simply the majority individual tier**. The system avoids modal voting logic to prevent minor high-yield components from skewing gross weight valuations, or conversely, to ensure a high volume of low-tier casings do not mask a highly valuable deposit of rare metals inside a heavy lot.
 
----
 
 ## Grading Methodology Comparison
 
@@ -23,7 +21,6 @@ The batch tier is **not simply the majority individual tier**. The system avoids
 | **Commercial Accuracy** | High margin of error; misrepresents true extractable mineral concentrations. | Perfect precision; precisely tracks total processing yields for buyers. |
 | **Sourcing Protection** | Exposes buying refineries to volatile, inaccurate material assumptions. | Secures contract expectations by verifying raw underlying material values. |
 
----
 
 ## Step-by-Step System Rollup Execution Flow
 
