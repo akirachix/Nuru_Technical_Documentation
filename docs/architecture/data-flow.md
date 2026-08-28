@@ -34,7 +34,6 @@ This workflow captures and processes data continuously on the physical sorting l
   * `individual_tier`
 * **Operator Frontend Refresh:** The Next.js PWA dynamically renders the identified classification tag, individual value tier, and algorithmic execution logic, giving the sorting operator immediate visibility to trigger an manual **Rescan** if needed.
 
----
 
 ## 2. Finish Batch (Batch Value Aggregation)
 
@@ -50,8 +49,6 @@ This transactional routine triggers when an operator seals a physical pallet lot
    * The core application invokes `tier_calculator.calculate_value_tier()` against those compiled batch averages to determine the absolute material status grouping (**HIGH** / **MEDIUM** / **LOW**).
 5. **State Commitment:** The main record's status variable transitions from `In Progress` to `Listed`.
 6. **Showroom Synchronization:** The finalized entity ledger—containing the calculated `average_material_composition`, consolidated `batch_value_tier`, and nested array profiles of all constituent `individual_tiers`—becomes visible to refinery buyers inside the marketplace engine.
-
----
 
 ## 3. Booking a Batch (Marketplace Procurement)
 
