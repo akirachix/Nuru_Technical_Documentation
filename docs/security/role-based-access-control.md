@@ -2,8 +2,6 @@
 
 The platform enforces strict Role-Based Access Control (RBAC) to govern API authorization boundaries, insulate corporate resources, and maintain clear separation between supply chain operations.
 
----
-
 ## The Authorization Matrix
 
 The system dynamically intercepts incoming JSON Web Tokens (JWT) at the gateway layer and checks the attached identity claims against a predefined permission scope matrix:
@@ -14,7 +12,6 @@ The system dynamically intercepts incoming JSON Web Tokens (JWT) at the gateway 
 | **`refinery_worker`** | Flutter Mobile App | Restricted to exploring listed inventory within the public Digital Showroom, filtering batches by chemical composition, and executing procurement booking requests. Cannot write or modify scanning or intake metrics. |
 | **`admin`** | Admin Dashboard | Elevated system-wide structural access. Authorized to provision new corporate tenants, adjust global configuration metrics, manage employee profiles, and audit transactional ledgers across all company entities. |
 
----
 
 ## Architectural Separation & Multi-Tenant Barriers
 
