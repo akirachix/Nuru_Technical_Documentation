@@ -2,7 +2,6 @@
 
 The E-Loop frontend platforms (the Next.js Progressive Web Application and the mobile Digital Showroom) and the backend cloud infrastructure communicate by sending and receiving structured API calls and real-time data to synchronize work processes across the platform ecosystem.
 
----
 
 ## Communication Architecture Overview
 
@@ -13,7 +12,6 @@ The system architecture utilizes standard HTTP request-response patterns and per
 * **Backend API & Cloud Database:** Ingests client traffic, performs algorithmic evaluations, and updates state ledgers.
 * **Mobile Clients:** Request real-time read and write operations to sync catalog views and book available feedstocks.
 
----
 
 ## Operational Network Integration Lifecycles
 
