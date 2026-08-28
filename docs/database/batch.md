@@ -2,7 +2,6 @@
 
 Stores consolidated e-waste lot metrics, averaged material weight evaluations, processing states, and pricing valuations aggregated from the sorting line.
 
----
 
 ## Database Field Schema
 
@@ -16,7 +15,6 @@ Stores consolidated e-waste lot metrics, averaged material weight evaluations, p
 | **`value_tier`** | Enum | `NOT NULL` | Automated quality assessment classification: High, Medium, or Low. |
 | **`created_at`** | DateTime | `NOT NULL` | Timestamp marking exactly when the cluster lot row initialized (UTC). |
 
----
 
 ## Enumerated Type Definitions
 
