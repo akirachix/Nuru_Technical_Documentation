@@ -2,8 +2,6 @@
 
 Lets recycling center workers register and save e-waste intake information ahead of processing on the sorting conveyor lines.
 
----
-
 ## Database Field Schema
 
 | Column Name | Data Type | Constraints | Operational Description |
