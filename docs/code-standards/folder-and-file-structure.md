@@ -2,7 +2,6 @@
 
 The platform architecture follows a strict **layer-per-concern pattern** to decouple operational behaviors, maximize testing boundaries, and ensure a scalable codebase repository footprint.
 
----
 
 ## Backend Framework Rules
 
@@ -41,7 +40,6 @@ New backend code for a resource is added to the matching layer file for that res
 └── requirements.txt               
 ```
 
----
 
 ## Frontend Folder Structure
 
