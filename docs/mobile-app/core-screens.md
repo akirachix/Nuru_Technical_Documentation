@@ -2,8 +2,6 @@
 
 The Flutter mobile application contains four primary layout contexts engineered to expose listed e-waste metrics, sort feedstocks, handle atomic booking requests, and track procurement lifecycles.
 
----
-
 ## Screen Architecture Matrix
 
 | Screen Context | Core Intent / Responsibility | Primary User Actions |
@@ -12,8 +10,6 @@ The Flutter mobile application contains four primary layout contexts engineered 
 | **Filtering** | Feedstock optimization and catalog narrowing. | Sort entries by material content or discrete value tiers. |
 | **Booking** | Concurrency locking and asset reservation. | Trigger immediate booking holds directly from the listing. |
 | **Booking History** | Audit log tracking and procurement lifecycles. | Monitor booking status across In progress, Confirmed, or Cancelled. |
-
----
 
 ## Detailed Screen Specifications
 
