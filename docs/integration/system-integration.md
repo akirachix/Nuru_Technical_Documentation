@@ -2,8 +2,6 @@
 
 The platform infrastructure relies on tightly integrated cloud platforms, managed state stores, structured configuration payloads, and low-latency edge connections to keep data synchronized smoothly across the ecosystem.
 
----
-
 ## Integration Services Matrix
 
 The table below catalogs the primary structural services, operational use-cases, and explicit system-level configurations driving the platform's integration plane:
@@ -15,7 +13,6 @@ The table below catalogs the primary structural services, operational use-cases,
 | **Material Composition JSON** | In-memory lookup table for component material percentages. | Stored at `config/material_composition.json`, loaded into `app.state.material_composition` on backend startup. |
 | **Raspberry Pi 5 / WebSocket** | Real-time ingestion of on-device YOLOv8's classification results. | Pi connects to the backend's WebSocket endpoint. |
 
----
 
 ## Infrastructure Connection Mapping
 
