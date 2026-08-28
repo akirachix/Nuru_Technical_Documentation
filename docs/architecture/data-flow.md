@@ -2,7 +2,6 @@
 
 The system processes data across three distinct operational phases: real-time edge scanning, batch-level aggregation, and downstream buyer marketplace procurement.
 
----
 
 ## 1. Component Scan (Individual Device Tiering)
 
