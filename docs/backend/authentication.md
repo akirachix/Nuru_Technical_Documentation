@@ -2,7 +2,6 @@
 
 The platform implements a multi-tenant authentication engine to securely verify user profiles, isolate organizational assets, and enforce specific execution privileges across all endpoint channels.
 
----
 
 ## Credential Security Blueprint
 
@@ -12,7 +11,6 @@ To establish full system accountability and protect sensitive system layers, use
 * **Cryptographic Hashing:** The database fields never save or intercept plain-text credentials. The platform records an immutable `password_hash` processed exclusively using **bcrypt** verification protocols.
 * **Component Locations:** The underlying network interfaces, registration blocks, and token issuance workflows reside cleanly inside **`routers/auth.py`** and **`routers/user.py`**.
 
----
 
 ## 1. Login & Token Flow
 
@@ -30,7 +28,6 @@ The connection routine moves sequentially through credential parsing and authent
 3. **Session Issuance:** If verified, the system returns a secure JSON Web Token (**JWT**) containing embedded context markers like `role` and `company_id`.
 4. **Endpoint Guarding:** All guarded paths execute an authorization check before launching downstream service tasks, evaluating the caller's identity directly from the active security token context.
 
----
 
 ## 2. Password Reset Protocol
 
@@ -39,7 +36,6 @@ Account recovery pipelines circumvent manual or unauthenticated credential overr
 * **Email Dispatch:** Account recovery routines generate specialized token requests sent directly to the user's registered inbox.
 * **SMTP Delivery Integration:** The platform backend formats and triggers a secure activation url link dispatched via standard **SMTP protocol pipelines** using the primary system account configurations.
 
----
 
 ## 3. Abuse Protection
 
@@ -48,7 +44,6 @@ Because authentication routes interact with database transaction cycles and hand
 * **Brute-Force Shielding:** All entry points and registration gateways are hard-guarded by proactive rate-limiting modules.
 * **Resource Optimization:** Excessive request payloads are intercepted at the middleware boundary layer to keep backend compute cores clean and optimize overall database performance.
 
----
 
 ## 4. Authorization Scopes (Role-Based Access)
 
