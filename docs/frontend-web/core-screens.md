@@ -2,8 +2,6 @@
 
 The Next.js Progressive Web App (PWA) exposes five primary layout contexts engineered to authenticate workers, initiate sorting runs, log incoming assets, and track active factory inventories.
 
----
-
 ## Screen Architecture Matrix
 
 | Screen Context | Core Intent / Responsibility | Primary User Actions |
@@ -14,7 +12,6 @@ The Next.js Progressive Web App (PWA) exposes five primary layout contexts engin
 | **Batch View** | Granular lot ledger analysis and system rollup. | Audit scanned item array; Trigger average calculations; Expose catalog. |
 | **Inventory / Batch Status** | Historical center tracking and lifecycle metrics overview. | Monitor processing states from In Progress to Completed. |
 
----
 
 ## Detailed Screen Specifications
 
