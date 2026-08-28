@@ -45,8 +45,6 @@ The eLoop Platform is engineered to bridge the transparency gap between e-waste 
  [ Refinery Purchase Hold ] <── [ Digital Showroom Catalog ] <── [ Batch Tier Rollup ]
 ```
 
----
-
 <div style="text-align: center; margin-top: 3rem;">
   <p style="color: var(--vp-c-text-2);">Confidential Document Repository • Property of e-Loop.</p>
 </div>
