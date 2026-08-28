@@ -2,8 +2,6 @@
 
 The same rule-based tier calculator is applied both to an individual scanned component and to a batch's averaged material composition to categorize items uniformly.
 
----
-
 ## Evaluation Rule Matrix
 
 | Tier | Rule |
@@ -12,7 +10,6 @@ The same rule-based tier calculator is applied both to an individual scanned com
 | **MEDIUM** | \(\text{Copper} \geq 12\%\) OR \(\text{Nickel} \geq 5\%\) |
 | **LOW** | Everything else |
 
----
 
 ## Core Algorithmic Logic
 
@@ -37,8 +34,6 @@ def calculate_value_tier(materials: dict) -> str:
     copper = materials.get("copper", 0.0)
     nickel = materials.get("nickel", 0.0)
 ```
-
----
 
 ## Threshold Evaluation Blocks
 
