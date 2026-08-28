@@ -2,7 +2,7 @@
 
 The E-Loop REST API is organized into resource groups, each with its own dedicated router module to manage specific operational boundaries and multi-tenant data structures.
 
----
+
 
 ## Resource Router Groups
 
@@ -15,7 +15,7 @@ The E-Loop REST API is organized into resource groups, each with its own dedicat
 | **Batches** | `/api/batches` | Batch lifecycle control: creation, showroom listing, and batch-level aggregation. |
 | **Bookings** | `/api/bookings` | Refinery booking holds and procurement request pipelines against listed inventory. |
 
----
+
 
 ## Authentication Endpoints
 
@@ -27,7 +27,6 @@ Handles secure identity validation, credential verification, and token issuance 
 | <Badge type="tip" text="POST" /> | `/auth/forgot-password` | Accepts a user's email; if it matches an active profile, it triggers a password reset email sent via standard **SMTP protocol pipelines**. |
 | <Badge type="tip" text="POST" /> | `/auth/reset-password` | Finalizes credential remediation by processing a secure, valid reset token form parsed out of the recovery link handler. |
 
----
 
 ## Company Endpoints
 
@@ -43,7 +42,6 @@ Manages structural organizational setups, corporate profiles, admin provisioning
 | <Badge type="warning" text="PATCH" /> | `/company/{company_id}` | Updates specific properties or data variables inside an existing company profile configuration by passing its unique identifier. |
 | <Badge type="danger" text="DELETE" /> | `/company/{company_id}` | Drops an organizational tenant completely from the shared platform registry via its system identifier. |
 
----
 
 ## User Endpoints
 
@@ -60,7 +58,6 @@ Governs individual worker profiles, directory registries, administrative access 
 | <Badge type="warning" text="PATCH" /> | `/user/{user_id}/deactivate` | Administrative security switch to immediately lock out an account and revoke token parsing rights **(Requires Admin privileges)**. |
 | <Badge type="warning" text="PATCH" /> | `/user/me` | Allows a worker to modify properties on their own account profile grid, such as names or notification settings. |
 
----
 
 ## Device Intakes Endpoints
 
@@ -75,7 +72,6 @@ Logs raw e-waste lot parameters arriving from delivery nodes prior to sorting li
 | <Badge type="warning" text="PATCH" /> | `/device-intake/{device_id}` | Updates log specifics or entry metrics for a recorded intake run **(Requires Recycling Center access scope)**. |
 | <Badge type="danger" text="DELETE" /> | `/device-intake/{device_id}` | Purges a target delivery intake entry from the platform storage tables **(Requires Recycling Center access scope)**. |
 
----
 
 ## Scanned Device Endpoints
 
@@ -90,7 +86,6 @@ This module ingests, filters, and manages individual element logs processed by t
 | <Badge type="warning" text="PATCH" /> | `/api/scanned-devices/batch/{batch_id}` | Updates existing properties or classification overrides for scanned items nested within a specified batch lot. |
 | <Badge type="danger" text="DELETE" /> | `/api/scanned-devices/batch/{batch_id}` | Flushes or purges scanned device records assigned to an active, unsubmitted `batch_id` payload. |
 
----
 
 ## Batch Endpoints
 
@@ -105,7 +100,6 @@ Manages physical lot aggregation pipelines, composition calculations, and state 
 | <Badge type="warning" text="PUT" /> | `/api/batches/{batch_id}` | Updates full structural batch parameters or forces linear state changes across the tracking chain (e.g., `Listed` $\rightarrow$ `Booked` $\rightarrow$ `Completed`). |
 | <Badge type="danger" text="DELETE" /> | `/api/batches/{batch_id}` | Removes a batch lot entry directly from the database ledger by passing its unique identifier string. |
 
----
 
 ## Booking Endpoints
 
