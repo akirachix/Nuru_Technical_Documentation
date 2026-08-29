@@ -1,8 +1,9 @@
 ## Scalability Strategy
 
-::: info How We Handle Growth
+**How We Handle Growth**
+
 This page explains how eLoop easily keeps working as you add more recycling yards, more cameras, and more users.
-:::
+
 
 
 ### Scaling Architecture Flow

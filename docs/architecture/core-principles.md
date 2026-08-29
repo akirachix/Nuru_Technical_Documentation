@@ -1,8 +1,9 @@
 ## Core Principles
 
-::: info Design Principles
+**Design Principles**
+
 eLoop minimizes operational friction by coupling automated edge metrics directly with an instant **Digital Showroom** network.
-:::
+
 
 
 ### Guiding Principles

@@ -1,8 +1,9 @@
 ## Data Flow
 
-::: info Metadata Pipeline
+**Metadata Pipeline**
+
 This section details how scanning telemetries pass asynchronously from localized conveyor line sensors into cloud transactional databases.
-:::
+
 
 
 ### Technical Flow Architecture
