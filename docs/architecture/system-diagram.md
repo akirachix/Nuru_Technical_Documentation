@@ -12,16 +12,16 @@ eLoop is a hardware-integrated system. Component and batch value tiers are deriv
 #### Camera Array
 * **Purpose:** Monitors incoming electronic waste continuously .
 * **Function:** Captures image frames .
-* **Data:** Sends raw images to the Raspberry Pi 5 .
+* **Data:** Sends raw images to the Raspberry Pi 5 module .
 
-<img src="/images/camera.png" alt="Raspberry Pi AI Camera" class="hardware" />
+<img src="/images/camera.png" alt="Raspberry Pi 5 Camera" class="hardware" />
 
 #### Raspberry Pi 5
-* **Purpose:** Runs object recognition locally [IMAGE].
+* **Purpose:** Runs object recognition locally.
 * **Function:** Runs **YOLOv8** to identify components and track item counts.
 * **Data:** Sends light metadata upstream over WebSockets.
 
-<img src="/images/raspberry.png" alt="Raspberry Pi 5" class="hardware" />
+<img src="/images/raspberry.png" alt="Raspberry Pi 5 module" class="hardware" />
 
 
 ### 2. Central Cloud Layer
