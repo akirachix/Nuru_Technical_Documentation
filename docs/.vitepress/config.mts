@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Overview', link: '/overview/product-defintion' } 
+      { text: 'Overview', link: '/overview/product-definition' } 
     ],
 
     sidebar: [
