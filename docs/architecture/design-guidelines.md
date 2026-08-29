@@ -5,8 +5,7 @@
 This page outlines the visual layout rules for the eLoop platform. It connects our Figma interface designs directly to frontend code tokens.
 
 
-
-## Visual Design Principles
+## 1. Visual Design Principles
 
 ### Clean Visual Hierarchy
 * **Primary Numbers First:** Live scanning numbers, weight data, and batch values must use the largest, boldest font scales so they pop instantly.
@@ -19,7 +18,7 @@ This page outlines the visual layout rules for the eLoop platform. It connects o
 * **Section Separation:** Major page blocks must use a uniform `40px` vertical margin space to prevent scrolling pages from feeling messy.
 
 
-## Brand Identity Rules
+## 2. Brand Identity Rules
 
 ### Core Color Scale
 

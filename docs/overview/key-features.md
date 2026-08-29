@@ -1,4 +1,4 @@
-## Key Features
+## 1.4 Key Features
 
 * **Material Registration:** Recycling workers register incoming e-waste intakes (device type, brand, weight, source) via the web app.
   

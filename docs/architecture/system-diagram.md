@@ -25,6 +25,19 @@ eLoop is a hardware-integrated system. Component and batch value tiers are deriv
 
 
 ### Central Cloud Layer
+* **Data:** Sends raw images to the Raspberry Pi 5 module .
+
+<img src="/images/camera.png" alt="Raspberry Pi 5 Camera" class="hardware" />
+
+#### Raspberry Pi 5
+* **Purpose:** Runs object recognition locally.
+* **Function:** Runs **YOLOv8** to identify components and track item counts.
+* **Data:** Sends light metadata upstream over WebSockets.
+
+<img src="/images/raspberry.png" alt="Raspberry Pi 5 module" class="hardware" />
+
+
+### Central Cloud Layer
 
 #### eLoop API (FastAPI)
 * **Purpose:** Core logic engine for the platform.
