@@ -1,4 +1,4 @@
-## 1.3 eLoop Users & Pain Points
+## eLoop Users & Pain Points
 
 | User Type | Role | Pain Points |
 | :--- | :--- | :--- |

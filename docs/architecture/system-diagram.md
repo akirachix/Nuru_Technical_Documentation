@@ -7,7 +7,7 @@ eLoop is a hardware-integrated system. Component and batch value tiers are deriv
 
 ## Component Breakdown
 
-### 1. Hardware & AI Layer
+### Hardware & AI Layer
 
 #### Camera Array
 * **Purpose:** Monitors incoming electronic waste continuously .
@@ -24,7 +24,7 @@ eLoop is a hardware-integrated system. Component and batch value tiers are deriv
 <img src="/images/raspberry.png" alt="Raspberry Pi 5" class="hardware" />
 
 
-### 2. Central Cloud Layer
+### Central Cloud Layer
 
 #### eLoop API (FastAPI)
 * **Purpose:** Core logic engine for the platform.
@@ -39,7 +39,7 @@ eLoop is a hardware-integrated system. Component and batch value tiers are deriv
 * **Function:** Tracks inventory records, user accounts/actions, and historical logs.
 
 
-### 3. User Interfaces
+### User Interfaces
 
 #### Recycler PWA (Next.js)
 * **Purpose:** Operator terminal at the recycling yard.

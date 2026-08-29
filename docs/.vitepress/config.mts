@@ -29,6 +29,23 @@ export default defineConfig({
           { text: 'Scalability', link: '/architecture/scalability' },
           { text: 'System Diagram', link: '/architecture/system-diagram' }
         ]
+      },
+      {
+        text: 'Backend',
+        items: [
+          { text: 'Api Overview ', link: '/backend/api-overview' },
+          { text: 'Hosted API ', link: '/backend/hosted-api' },
+          { text: 'Prerequisites ', link: '/backend/prerequisites' },
+          { text: 'Architecture Layer ', link: '/backend/architecture-layers' },
+          { text: 'API Conventions ', link: '/backend/api-conventions' },
+          { text: 'Endpoint Categories ', link: '/backend/endpoint-categories' },
+          { text: 'Testing and QA ', link: '/backend/testing&qa' },
+          { text: 'Code Standards ', link: '/backend/code-standards' },
+          { text: 'Deployment ', link: '/backend/deployment' }
+
+
+    
+        ]
       }
     ]
   }

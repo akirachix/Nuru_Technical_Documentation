@@ -113,3 +113,44 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.15rem !important;
   line-height: 1.8 !important;
 }
+
+@media (min-width: 960px) {
+  .VPDoc .container {
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    padding: 0 48px !important;
+  }
+
+  .VPDoc .content {
+    max-width: 100% !important;
+    flex-grow: 1 !important; 
+  }
+
+  .VPDoc .content-container {
+    max-width: 1300px !important;
+    width: 100% !important;
+  }
+
+  .VPDoc .aside {
+    margin-left: 40px !important;
+    min-width: 240px !important;
+    display: block !important;
+  }
+}
+
+.VPDoc .prev-next {
+  max-width: 100% !important;
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 24px !important;
+  margin-top: 40px !important;
+}
+
+.VPDoc .prev-next a {
+  flex: none !important;
+  max-width: 80% !important;
+  width: 100% !important;
+}
