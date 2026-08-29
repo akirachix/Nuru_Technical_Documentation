@@ -8,19 +8,19 @@ This project isolates core documentation content and system configurations withi
 
 ```text
 NURU_TECHNICAL_DOCUMENTATION/
-├── docs/                             # Main source documentation root folder
-│   ├── .vitepress/                   # VitePress core configuration engine
-│   │   ├── theme/                    # Custom interface layouts
-│   │   │   └── index.ts              # Theme module initialization script
-│   │   ├── config.mts                # Primary VitePress site routing and sidebar rules
-│   │   └── custom.css                # Custom global styling and theme overrides
-│   ├── architecture/                 # System design and scalability layouts
+├── docs/
+│   ├── .vitepress/
+│   │   ├── theme/
+│   │   │   └── index.ts
+│   │   ├── config.mts
+│   │   └── custom.css
+│   ├── architecture/
 │   │   ├── core-principles.md
 │   │   ├── data-flow.md
 │   │   ├── design-guidelines.md
 │   │   ├── scalability.md
 │   │   └── system-diagram.md
-│   ├── backend/                      # Complete backend and API core technical docs
+│   ├── backend/
 │   │   ├── api-conventions.md
 │   │   ├── api-overview.md
 │   │   ├── architecture-layers.md
@@ -30,16 +30,16 @@ NURU_TECHNICAL_DOCUMENTATION/
 │   │   ├── hosted-api.md
 │   │   ├── prerequisites.md
 │   │   └── testing&qa.md
-│   ├── overview/                     # Platform core definitions and requirements
+│   ├── overview/
 │   │   ├── key-features.md
 │   │   ├── product-definition.md
 │   │   ├── target-users.md
 │   │   └── the-problem-it-solves.md
-│   ├── public/images/                # Static visual assets and diagram assets
-│   └── index.md                      # Documentation portal landing homepage
-├── package-lock.json                 # Pinned configuration lockfile
-├── package.json                      # Project dependencies and script runner limits
-└── README.md                         # Project overview and system onboarding guide
+│   ├── public/images/
+│   └── index.md
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ### Access
