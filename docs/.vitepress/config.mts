@@ -33,18 +33,32 @@ export default defineConfig({
       {
         text: 'Backend',
         items: [
-          { text: 'Api Overview ', link: '/backend/api-overview' },
-          { text: 'Hosted API ', link: '/backend/hosted-api' },
-          { text: 'Prerequisites ', link: '/backend/prerequisites' },
-          { text: 'Architecture Layer ', link: '/backend/architecture-layers' },
-          { text: 'API Conventions ', link: '/backend/api-conventions' },
-          { text: 'Endpoint Categories ', link: '/backend/endpoint-categories' },
-          { text: 'Testing and QA ', link: '/backend/testing&qa' },
-          { text: 'Code Standards ', link: '/backend/code-standards' },
-          { text: 'Deployment ', link: '/backend/deployment' }
-
-
-    
+          { text: 'Api Overview', link: '/backend/api-overview' },
+          { text: 'Hosted API', link: '/backend/hosted-api' },
+          { text: 'Prerequisites', link: '/backend/prerequisites' },
+          { text: 'Architecture Layer', link: '/backend/architecture-layers' },
+          { text: 'API Conventions', link: '/backend/api-conventions' },
+          { text: 'Endpoint Categories', link: '/backend/endpoint-categories' },
+          { text: 'Testing and QA', link: '/backend/testing&qa' },
+          { text: 'Code Standards', link: '/backend/code-standards' },
+          { text: 'Deployment', link: '/backend/deployment' }
+        ]
+      },
+      {
+        text: 'Frontend Web',
+        items: [
+          { text: 'Web Overview', link: '/frontend-web/web-overview' },
+          { text: 'Technology', link: '/frontend-web/tech-stack' },
+          { text: 'Setup', link: '/frontend-web/setup' },
+          { text: 'Project Structure', link: '/frontend-web/project-structure' },
+          { text: 'Code Standards', link: '/frontend-web/code-standards' },
+          { text: 'Authentication Flow', link: '/frontend-web/authentication-flow' },
+          { text: 'API Integration', link: '/frontend-web/api-integration' },
+          { text: 'Pages and Structure', link: '/frontend-web/pages&structure' },
+          { text: 'Styling', link: '/frontend-web/styling' },
+          { text: 'Error Handling', link: '/frontend-web/error-handling' },
+          { text: 'QA Documentation', link: '/frontend-web/qa-documentation' },
+          { text: 'Deployment', link: '/frontend-web/deployment' },
         ]
       }
     ]
