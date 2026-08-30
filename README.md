@@ -8,14 +8,47 @@ This project isolates core documentation content and system configurations withi
 
 ```text
 ├── docs/
-│   ├── .vitepress/          # VitePress system configurations and themes
-│   ├── overview/            # Platform fundamentals, user definitions, and problem space
-│   ├── public/              # Static assets, diagrams, and images
-│   ├── config.mts           # Primary VitePress site configuration
-│   ├── custom.css           # Custom global styling overrides
-│   └── index.md             # Documentation portal homepage
-├── package.json             # Project dependencies and execution scripts
-└── README.md                # Project overview and deployment guide
+│   ├── .vitepress/
+│   │   ├── config.mts
+│   │   └── custom.css
+│   ├── architecture/
+│   │   ├── core-principles.md
+│   │   ├── data-flow.md
+│   │   ├── design-guidelines.md
+│   │   ├── scalability.md
+│   │   └── system-diagram.md
+│   ├── backend/
+│   │   ├── api-conventions.md
+│   │   ├── api-overview.md
+│   │   ├── architecture-layers.md
+│   │   ├── code-standards.md
+│   │   ├── deployment.md
+│   │   ├── endpoint-categories.md
+│   │   ├── hosted-api.md
+│   │   ├── prerequisites.md
+│   │   └── testing&qa.md
+│   ├── frontend-web/
+│   │   ├── api-integration.md
+│   │   ├── authentication-flow.md
+│   │   ├── code-standards.md
+│   │   ├── deployment.md
+│   │   ├── error-handling.md
+│   │   ├── pages&structure.md
+│   │   ├── project-structure.md
+│   │   ├── qa-documentation.md
+│   │   ├── setup.md
+│   │   ├── styling.md
+│   │   ├── tech-stack.md
+│   │   └── web-overview.md
+│   ├── overview/
+│   │   ├── key-features.md
+│   │   ├── product-definition.md
+│   │   ├── target-users.md
+│   │   └── the-problem-it-solves.md
+│   ├── public/
+│   └── index.md
+├── package.json
+└── README.md
 ```
 
 ### Access
