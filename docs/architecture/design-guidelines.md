@@ -5,7 +5,6 @@
 This page outlines the visual layout rules for the eLoop platform. It connects our Figma interface designs directly to frontend code tokens.
 
 
-
 ## 1. Visual Design Principles
 
 ### Clean Visual Hierarchy
