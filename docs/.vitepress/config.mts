@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  title: "ELoop Technical Documentation",
+  description: "Internal and external architecture guidelines for ELoop Platform",
+  srcDir: '.', 
   title: "eLoop Technical Documentation",
   description: "Internal and external architecture guidelines for ELoop Platform",
   themeConfig: {

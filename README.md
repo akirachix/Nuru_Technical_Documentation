@@ -8,6 +8,14 @@ This project isolates core documentation content and system configurations withi
 
 ```text
 ├── docs/
+│   ├── .vitepress/
+│   ├── overview/
+│   ├── public/              
+│   ├── config.mts           
+│   ├── custom.css           
+│   └── index.md             
+├── package.json             
+└── README.md                
 │   ├── .vitepress/          # VitePress system configurations and themes
 │   ├── overview/            # Platform fundamentals, user definitions, and problem space
 │   ├── public/              # Static assets, diagrams, and images
