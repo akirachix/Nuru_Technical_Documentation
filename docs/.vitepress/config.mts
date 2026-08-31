@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Nuru_Technical_Documentation/',
   title: "eLoop Technical Documentation",
   description: "Internal and external architecture guidelines for ELoop Platform",
+  srcDir: '.', 
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
