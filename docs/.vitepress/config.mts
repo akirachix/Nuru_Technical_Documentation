@@ -79,6 +79,19 @@ export default defineConfig({
         ],
       },
       {
+        text: "Deployment",
+        collapsed: true,
+        items: [
+          { text: "Deployment Architecture", link: "/deployment/deployment-architecture" },
+          { text: "Backend Deployment", link: "/deployment/backend-deployment" },
+          { text: "Frontend Deployment", link: "/deployment/frontend-deployment" },
+          { text: "CI/CD Pipeline", link: "/deployment/cicd-pipeline" },
+          { text: "Environment Variables", link: "/deployment/environment-variables" },
+          { text: "External Services", link: "/deployment/external-services" },
+          { text: "System Integration", link: "/deployment/system-integration" },
+        ],
+      },
+      {
         text: "Security",
         collapsed: true,
         items: [
