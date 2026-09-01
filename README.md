@@ -1,16 +1,18 @@
 # Nuru Technical Documentation
 
-This repository contains the comprehensive technical documentation and system architecture blueprints for the Nuru platform. The documentation is built and served using [VitePress](https://vitepress.dev), a Vite-powered static site generator.
+This repository contains the comprehensive technical documentation and system architecture blueprints for the eLoop platform. 
 
 ## Project Structure
 
 This project isolates core documentation content and system configurations within the `docs` directory:
 
 ```text
+NURU_TECHNICAL_DOCUMENTATION/
 ├── docs/
 │   ├── .vitepress/
-│   │   ├── config.mts
-│   │   └── custom.css
+│   │   ├── theme/
+│   │   │   └── index.ts
+│   │   └── config.mts
 │   ├── architecture/
 │   │   ├── core-principles.md
 │   │   ├── data-flow.md
@@ -46,11 +48,13 @@ This project isolates core documentation content and system configurations withi
 │   │   ├── target-users.md
 │   │   └── the-problem-it-solves.md
 │   ├── public/
+│   │   └── images/
+│   ├── custom.css
 │   └── index.md
+├── package-lock.json
 ├── package.json
 └── README.md
 ```
-
 ### Access
 
 The documentation portal is accessible locally at `http://localhost:5173`.
