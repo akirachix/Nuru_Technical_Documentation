@@ -1,10 +1,10 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base: '/Nuru_Technical_Documentation/', 
+  base: '/Nuru_Technical_Documentation/',
   title: "eLoop Technical Documentation",
-  description:
-    "Internal and external architecture guidelines for ELoop Platform",
+  description: "Internal and external architecture guidelines for ELoop Platform",
+  srcDir: '.',
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
@@ -16,14 +16,8 @@ export default defineConfig({
         text: "1. Overview",
         collapsed: true,
         items: [
-          {
-            text: "1.1 Product Definition",
-            link: "/overview/product-definition",
-          },
-          {
-            text: "1.2 The Problem It Solves",
-            link: "/overview/the-problem-it-solves",
-          },
+          { text: "1.1 Product Definition", link: "/overview/product-definition" },
+          { text: "1.2 The Problem It Solves", link: "/overview/the-problem-it-solves" },
           { text: "1.3 Who Uses It", link: "/overview/target-users" },
           { text: "1.4 Key Features", link: "/overview/key-features" },
         ],
@@ -34,10 +28,7 @@ export default defineConfig({
         items: [
           { text: "Core Principles", link: "/architecture/core-principles" },
           { text: "Data Flow", link: "/architecture/data-flow" },
-          {
-            text: "Design Guidelines",
-            link: "/architecture/design-guidelines",
-          },
+          { text: "Design Guidelines", link: "/architecture/design-guidelines" },
           { text: "Scalability", link: "/architecture/scalability" },
           { text: "System Diagram", link: "/architecture/system-diagram" },
         ],
@@ -55,19 +46,46 @@ export default defineConfig({
         ],
       },
       {
+        text: "Backend",
+        collapsed: true,
+        items: [
+          { text: "Api Overview", link: "/backend/api-overview" },
+          { text: "Hosted API", link: "/backend/hosted-api" },
+          { text: "Prerequisites", link: "/backend/prerequisites" },
+          { text: "Architecture Layer", link: "/backend/architecture-layers" },
+          { text: "API Conventions", link: "/backend/api-conventions" },
+          { text: "Endpoint Categories", link: "/backend/endpoint-categories" },
+          { text: "Testing and QA", link: "/backend/testing-and-qa" },
+          { text: "Code Standards", link: "/backend/code-standards" },
+          { text: "Deployment", link: "/backend/deployment" },
+        ],
+      },
+      {
+        text: "Frontend Web",
+        collapsed: true,
+        items: [
+          { text: "Web Overview", link: "/frontend-web/web-overview" },
+          { text: "Technology", link: "/frontend-web/tech-stack" },
+          { text: "Setup", link: "/frontend-web/setup" },
+          { text: "Project Structure", link: "/frontend-web/project-structure" },
+          { text: "Code Standards", link: "/frontend-web/code-standards" },
+          { text: "Authentication Flow", link: "/frontend-web/authentication-flow" },
+          { text: "API Integration", link: "/frontend-web/api-integration" },
+          { text: "Pages and Structure", link: "/frontend-web/pages-and-structure" },
+          { text: "Styling", link: "/frontend-web/styling" },
+          { text: "Error Handling", link: "/frontend-web/error-handling" },
+          { text: "QA Documentation", link: "/frontend-web/qa-documentation" },
+          { text: "Deployment", link: "/frontend-web/deployment" },
+        ],
+      },
+      {
         text: "Security",
         collapsed: true,
         items: [
           { text: "Security Posture", link: "/security/security-posture" },
-          {
-            text: "Application Security",
-            link: "/security/application-security",
-          },
+          { text: "Application Security", link: "/security/application-security" },
           { text: "Data Security", link: "/security/data-security" },
-          {
-            text: "Data Classification",
-            link: "/security/data-classification",
-          },
+          { text: "Data Classification", link: "/security/data-classification" },
           { text: "Network Security", link: "/security/network-security" },
           { text: "Risk Management", link: "/security/risk-management" },
           { text: "Incident Response", link: "/security/incident-response" },
