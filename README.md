@@ -8,6 +8,7 @@ This project isolates core documentation content and system configurations withi
 
 ```text
 NURU_TECHNICAL_DOCUMENTATION/
+project-root/
 ├── docs/
 │   ├── .vitepress/
 │   │   ├── theme/
@@ -29,6 +30,11 @@ NURU_TECHNICAL_DOCUMENTATION/
 │   │   ├── hosted-api.md
 │   │   ├── prerequisites.md
 │   │   └── testing&qa.md
+│   ├── developer-guide/
+│   │   ├── git-workflow.md
+│   │   ├── global-code-standards.md
+│   │   ├── glossary.md
+│   │   └── testing-conventions.md
 │   ├── frontend-web/
 │   │   ├── api-integration.md
 │   │   ├── authentication-flow.md
@@ -54,7 +60,7 @@ NURU_TECHNICAL_DOCUMENTATION/
 ├── package-lock.json
 ├── package.json
 └── README.md
-```
+
 ### Access
 
 The documentation portal is accessible locally at `http://localhost:5173`.
