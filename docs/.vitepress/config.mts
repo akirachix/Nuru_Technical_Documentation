@@ -79,6 +79,20 @@ export default defineConfig({
         ],
       },
       {
+        text: "Frontend Mobile",
+        collapsed: true,
+        items: [
+          { text: "Mobile Overview", link: "/frontend-mobile/overview" },
+          { text: "Technology", link: "/frontend-mobile/tech-stack" },
+          { text: "Project Structure", link: "/frontend-mobile/project-structure" },
+          { text: "Architecture Layers", link: "/frontend-mobile/architecture-layers" },
+          { text: "Core Components", link: "/frontend-mobile/core-components" },
+          { text: "Security Measures", link: "/frontend-mobile/security-measures" },
+          { text: "Installation", link: "/frontend-mobile/installation" },
+          { text: "Troubleshooting", link: "/frontend-mobile/troubleshooting" },
+        ],
+      },
+      {
         text: "Deployment",
         collapsed: true,
         items: [
