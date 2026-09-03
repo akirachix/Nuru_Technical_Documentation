@@ -14,6 +14,13 @@ project-root/
 │   │   ├── theme/
 │   │   │   └── index.ts
 │   │   └── config.mts
+│   ├── ai-module/
+│   │   ├── accuracy-results.md
+│   │   ├── ai-overview.md
+│   │   ├── data-pipeline.md
+│   │   ├── evaluation-method.md
+│   │   ├── models-used.md
+│   │   └── training-approach.md
 │   ├── architecture/
 │   │   ├── core-principles.md
 │   │   ├── data-flow.md
@@ -30,11 +37,28 @@ project-root/
 │   │   ├── hosted-api.md
 │   │   ├── prerequisites.md
 │   │   └── testing&qa.md
+│   ├── deployment/
+│   │   ├── backend-deployment.md
+│   │   ├── cicd-pipeline.md
+│   │   ├── deployment-architecture.md
+│   │   ├── environment-variables.md
+│   │   ├── external-services.md
+│   │   ├── frontend-deployment.md
+│   │   └── system-integration.md
 │   ├── developer-guide/
 │   │   ├── git-workflow.md
 │   │   ├── global-code-standards.md
 │   │   ├── glossary.md
 │   │   └── testing-conventions.md
+│   ├── frontend-mobile/
+│   │   ├── architecture-layers.md
+│   │   ├── core-components.md
+│   │   ├── installation.md
+│   │   ├── overview.md
+│   │   ├── project-structure.md
+│   │   ├── security-measures.md
+│   │   ├── tech-stack.md
+│   │   └── troubleshooting.md
 │   ├── frontend-web/
 │   │   ├── api-integration.md
 │   │   ├── authentication-flow.md
@@ -55,11 +79,21 @@ project-root/
 │   │   └── the-problem-it-solves.md
 │   ├── public/
 │   │   └── images/
+│   ├── security/
+│   │   ├── application-security.md
+│   │   ├── conclusion.md
+│   │   ├── data-classification.md
+│   │   ├── data-security.md
+│   │   ├── incident-response.md
+│   │   ├── network-security.md
+│   │   ├── risk-management.md
+│   │   └── security-posture.md
 │   ├── custom.css
 │   └── index.md
 ├── package-lock.json
 ├── package.json
 └── README.md
+
 
 ### Access
 
